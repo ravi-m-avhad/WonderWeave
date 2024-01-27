@@ -1,0 +1,97 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #2c3e50; /* Dark blue background */
+  color: #fff;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.navbar {
+  background: linear-gradient(to right, #3498db, #5fa8d3); /* Gradient blue for the navbar */
+  color: #fff;
+  padding: 10px 0;
+}
+
+.navbar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 40px; /* Adjust the size of the logo */
+  margin-right: 10px;
+}
+
+.navbar h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.nav-menu {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-menu li {
+  margin-right: 20px;
+}
+
+.nav-button {
+  text-decoration: none;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background: linear-gradient(to right, #ff6b6b, #ffb142); /* Gradient bright colors for the button */
+  transition: background 0.3s ease;
+}
+
+.nav-button:hover {
+  background: linear-gradient(to right, #ffb142, #ff6b6b); /* Inverted gradient on hover */
+}
+
+.story-card img {
+  width: 100%;
+  border-radius: 8px 8px 0 0;
+}
+
+.story-info {
+  padding: 20px;
+  border-radius: 0 0 8px 8px;
+  background: linear-gradient(to right, #ff6b6b, #ffb142); /* Gradient bright colors for the story info */
+}
+
+.card-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.story-info h2 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.card-link:hover {
+  transform: translateY(-5px);
+}
+
+.card-link:hover .story-card {
+  background: linear-gradient(to right, #ffb142, #ff6b6b);
+}
+
+.card-link:hover .story-info {
+  background: linear-gradient(to right, #ffb142, #ff6b6b);
+}
